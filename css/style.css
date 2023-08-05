@@ -1,0 +1,189 @@
+      :root{
+    --primary-color:#cb3931;
+    --secondary-color:#f0f0f0;
+   }
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex; 
+  flex-direction: column; 
+  height: 100vh; 
+}
+
+.top-half {
+  flex: 2 ; 
+  background-color: var(--secondary-color); 
+  padding: 20px;
+}
+
+.bottom-half {
+  flex: 1; 
+  background-color: var(--primary-color); 
+    padding: 20px;
+}
+
+.article {
+  overflow-x: hidden;
+  text-align: center;
+  width: 500px;
+  height: 550px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999; 
+}
+.image-section{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.image-section img{
+  width: 100%;
+  height: 100%;
+}
+
+.Portfolio{
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+.Portfolio p {
+  font-size: 9px;
+  color: var(--primary-color);
+  width: 167px;
+  overflow-x: hidden;
+  text-align: left;
+
+}
+
+.information{
+  margin-left: 45px;  
+  background-color: var(--secondary-color);
+ 
+  padding-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  height: 185px;
+}
+
+.information h1{
+  font-size: 35px;
+  width: 250px;
+  font-weight: bold;
+  margin-left: 30px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 45px;
+}
+
+.information .contact a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.information .contact  {
+  font-size: 8px;
+  color: var(--primary-color);
+  position: absolute;
+  top: 18%;
+  right: 14px;
+  text-align: left;
+  font-weight: 600;
+}
+.information div:nth-child(3){
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  align-items: center;
+  padding-right: 10px;
+  margin: auto;
+  margin-top: -40px;
+}
+.information div:nth-child(3) div:nth-child(1) p{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+.information div:nth-child(3) div:nth-child(2) {
+  padding-left:10px;
+  padding-right:10px;
+  display: flex;
+  width: 75px;
+  justify-content: space-evenly;
+}
+.information div:nth-child(3) div:nth-child(2) i {
+  font-size: 10px;
+  padding: 5px;
+  color: black;
+}
+
+
+
+.exp{
+  width: 75%;
+  margin-left: 17px;
+    display: flex;
+  justify-content: space-between;
+}
+.exp h3{
+  font-size: 12px;
+  color: var(--primary-color);
+}
+.section3{
+  text-align: start;
+  width: 90%;
+  margin: auto;
+}
+.section4{
+  line-height: 2.5;
+  
+  margin-top: -10px;
+  margin-left: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.section4 p{
+  font-size: 8px;
+}
+.section4 div:nth-child(1) p:nth-child(1) , div:nth-child(2) p:nth-child(1){
+  font-style: italic;
+}
+.section4 span {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.section4 div:nth-child(2) p:nth-child(2){
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top:-10px;
+  margin-bottom: -9px;
+}
+.section4 div:nth-child(2) p:nth-child(3){
+  color: gray;
+  line-height: 1.5;
+}
+.section4 div:nth-child(1) p:nth-child(3){
+  width: 250px;
+  color: gray;
+  line-height: 1.5;
+}
+.section4 div:nth-child(1) p:nth-child(2){
+  font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
